@@ -17,6 +17,6 @@ class home_view(APIView):
         
         except Exception as e:
             print ("Error : ", e)
-            return Response({"Error" : "Inetrnal Error."})
+            return Response({"Error" : "Inetrnal Server Error"})
 
 

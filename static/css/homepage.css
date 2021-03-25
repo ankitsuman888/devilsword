@@ -2,12 +2,6 @@
 {
     background-color: #1B1B23;
     padding: 0px;
-    
-    /* center alignment*/
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 img{
@@ -18,6 +12,33 @@ img{
 
 .div_style
 {
+    /* center alignment*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.div_style_img
+{
     width: 100%;
     height: 100%;
+}
+.div_style_text_btn
+{
+
+}
+
+.input_message
+{
+    width : 400px;
+    height : 30px;
+    margin: 0px;
+}
+.input_button
+{
+    width : 50px;
+    height : 25px;
+    padding: 0px;
+    margin: 0px;
+    background-color: bisque;
 }
